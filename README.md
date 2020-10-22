@@ -1,4 +1,4 @@
-# Introducción a RabbitMQ
+# IntroducciÃ³n a RabbitMQ
 
 This tiny project is just a first try of building Microservices using RabbitMQ.
 
@@ -8,7 +8,7 @@ To do this, two microservices have been created that are APIS in NET Core 3.1 in
 
 The services as you can see are very basic since we basically wanted to test how they communicate with each other through RabbitMQ.
 
-##RabbitMQ Setup:
+## RabbitMQ Setup:
 Go to https://www.rabbitmq.com/download.html
 
 You will have to install RabbitMQ and earlang (https://www.rabbitmq.com/which-erlang.html)
