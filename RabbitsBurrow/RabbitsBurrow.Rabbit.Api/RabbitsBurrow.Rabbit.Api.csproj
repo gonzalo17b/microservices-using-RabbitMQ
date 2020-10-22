@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="8.2.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="8.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.8" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.InMemory" Version="3.1.8" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RabbitsBurrow.IoC\RabbitsBurrow.IoC.csproj" />
+    <ProjectReference Include="..\RabbitsBurrow.Rabbit.Application\RabbitsBurrow.Rabbit.Application.csproj" />
+    <ProjectReference Include="..\RabbitsBurrow.Rabbit.Domain\RabbitsBurrow.Rabbit.Domain.csproj" />
+  </ItemGroup>
+
+
+</Project>

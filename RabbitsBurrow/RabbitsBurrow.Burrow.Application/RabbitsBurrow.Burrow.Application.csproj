@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RabbitsBurrow.Burrow.Domain\RabbitsBurrow.Burrow.Domain.csproj" />
+    <ProjectReference Include="..\RabbitsBurrow.Domain\RabbitsBurrow.Domain.csproj" />
+    <ProjectReference Include="..\RabbitsBurrow.Infrastructure\RabbitsBurrow.Infrastructure.csproj" />
+  </ItemGroup>
+
+</Project>
