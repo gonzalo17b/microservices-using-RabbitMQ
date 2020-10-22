@@ -27,15 +27,15 @@ To enable dashboard:
 rabbitmq-plugins enable rabbitmq_management
 
 Start:
-rabbitmqctl start_app
+    rabbitmqctl start_app
 
 To turn off:
-rabbitmqctl stop_app
+    rabbitmqctl stop_app
 
 To RESET COMPLETELY:
-rabbitmqctl stop_app
-rabbitmqctl reset
-rabbitmqctl start_app
+    rabbitmqctl stop_app
+    rabbitmqctl reset
+    rabbitmqctl start_app
 
 ```
 The nuguet used in this project is RabbitMQ.Client.
